@@ -1,0 +1,267 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: rgb(189, 189, 189);
+  font-family: 'Oxygen', sans-serif;
+}
+
+.info{
+  margin: 50px 50px 50px 50px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 25px;
+}
+
+#info-p{
+  padding-top: 1.5em;
+  padding-left: 1.8em;
+  padding-right: 1.8em;
+  padding-bottom: 1.5em;
+  margin: 0px;
+  font-size: 24px;
+}
+.container{
+  margin: 0 0 0 0;
+  width: 40%;
+  float: left;
+}
+
+#facebook-icon{
+  background: url('../media/facebook_24.png') no-repeat;
+  width: 24px;
+  height: 24px;
+  margin: 5px 15px 5px 0;
+  float: left;
+}
+
+#instagram-icon{
+  background: url('../media/instagram_24.png') no-repeat;
+  width: 24px;
+  height: 24px;
+  margin: 5px 15px 5px 0;
+  float: left;
+}
+#mail-icon{
+  background: url('../media/email.png') no-repeat;
+  width: 24px;
+  height: 24px;
+  margin: 5px 15px 5px 0;
+  float: left;
+}
+#alt-aoc{
+  margin: 5px 5px 5px 0;
+  float: left;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #050505;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../media/aoc-logo_medium.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px 5px 0;
+  
+}  
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 30px;
+  margin-right: 25px;
+  font-size: 24px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+  border-bottom: solid transparent 3px;
+}
+#nav-list a:hover {  
+  border-bottom-color: #e8fd2d;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+
+#videoBG{
+      width: 100%;
+}
+
+/* HOME PAGE */
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+  background: url('../media/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('../media/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+/* END HOME PAGE */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+  
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #logo-img {
+    background: url('../media/aoc-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+    
+  }  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../media/aoc-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }  
+  #nav-list {
+    font-size: 22px;
+  }
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav-list {
+    font-size: 20px;
+  }
+  #logo-img {
+    background: url('../media/aoc-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ 
+  
+  #logo-img {
+    background: url('../media/aoc-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+  /* Header */
+  .navbar-toggle{
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  .container{
+    width: 100%;
+    float:none;
+  }
+
+  #nav-list {
+    margin:  0 0 0 0 ;
+    font-size: 17px;
+  }
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}

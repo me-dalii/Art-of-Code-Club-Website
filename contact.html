@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AOC Club</title>
+    <title>AOC Club Contact</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -52,18 +52,33 @@
     </nav><!-- #header-nav -->
   </header>
 
-  <div id="main-content" >
-    <div>
-    	<video id="videoBG" poster="media\poster.png" alt="Picture of restaurant" class="img-responsive" autoplay muted loop>
-        <source src="media\aoc.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="info">
-      <p id="info-p">Art of Code Club is a collaboration between IT Students of the faculty of Science of Bizerte in order to learn 
-        and excel in Computer Science field.</p>
-    </div>
-    <!-- End of #home-tiles -->
-  </div><!-- End of #main-content -->
+  <div class="info" style="margin: 50px 35% 20px 35%">
+    <h1 id="contact-container">Contact us</h1>
+  </div>
+  <div>
+        <form action="">
+        <table>
+          <tr>
+            <td><label>Name</label></td>
+            <td><input type="text" name="Nom" placeholder="Your name"></td>
+          </tr>
+          <tr>
+            <td><label>Email</label></td>
+            <td><input type="text" name="Email" placeholder="Your Email"></td>
+          </tr>
+          <tr>
+            <td><label>Subject</label></td>
+            <td><input type="text" name="Sujet" placeholder="Subject"></td>
+          </tr>
+            <tr>
+              <td><label>Message</label></td>
+              <td><textarea name="message" placeholder="Your message here"></textarea></td>
+            </tr>
+        </table>
+          <input type="submit" name="Envoyer">
+          </form>
+      </div>
+
   <footer class="panel-footer">
       <div class="row">
         <section id="address" class="col-md-4 col-sm-5">

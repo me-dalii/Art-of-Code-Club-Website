@@ -107,6 +107,7 @@ textarea:focus, input:focus{
 td{
   padding-bottom: 10px;
   padding-top: 10px;
+  padding-right: 5px;
 }
 tr{
   padding-bottom: 50px;
@@ -127,6 +128,40 @@ input[type=submit] {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 25px;
+}
+
+#myImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover{
+  opacity: 0.7;
+}
+h3{
+  color: #ffd904;
+  font-style:  bold;
+}
+
+.blocks-container{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.blocks{
+  padding-left: 20px;
+  margin: 25px auto;
+  border-radius: 25px;
+  border-style: solid ;
+  background-color: #1f1f1f;
+  width: 100%;
 }
 /** HEADER **/
 #header-nav {

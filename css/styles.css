@@ -22,11 +22,11 @@ body {
 }
 
 #contact-container{
-
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 1.2em;
 }
+
 .container{
   margin: 0 0 0 0;
   width: 40%;
@@ -130,7 +130,7 @@ input[type=submit] {
   border-radius: 25px;
 }
 
-#myImg {
+.Img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -143,7 +143,7 @@ input[type=submit] {
   transition: 0.3s;
 }
 
-#myImg:hover{
+.Img:hover{
   opacity: 0.7;
 }
 h3{
@@ -163,6 +163,21 @@ h3{
   background-color: #1f1f1f;
   width: 100%;
 }
+.cont{
+  float:left;
+  width: 50%;
+}
+
+.poster{
+  display:inline;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /** HEADER **/
 #header-nav {
   background-color: #050505;
@@ -311,6 +326,10 @@ h3{
     height: 100px;
     margin: 5px 5px 5px 0;
   }
+  .cont{
+    margin: 0 auto;
+    float:none;
+  }
 
 }
 
@@ -375,4 +394,9 @@ h3{
     width: 360px;
     margin: 0 auto 15px;
   }
+  .cont{
+    
+    float:none;
+  }
+  
 }

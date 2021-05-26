@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: rgb(189, 189, 189);
+  background-color: rgb(230 230 230);
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -163,13 +163,39 @@ h3{
   background-color: #1f1f1f;
   width: 100%;
 }
+
 .cont{
   float:left;
-  width: 50%;
+  width: 100%;
+  margin-bottom: 1.2em;
 }
 
 .poster{
   display:inline;
+  width: 30%;
+}
+.event-desc{
+  display: inline;
+  float: right;
+  color: #000;
+  background-color: white;
+  padding: 5em;
+  width: 65%;
+}
+img{
+  vertical-align: top;
+}
+
+h4{
+  font-size: 28px;
+  color: #000;
+  display: inline;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.desc-p{
+  margin-top: 10px;
+  font-size:18px;
 }
 
 .clearfix:after {
@@ -178,6 +204,84 @@ h3{
   clear: both;
 }
 
+h2{
+  font-size: 36px;
+  font-weight: 700;
+}
+/**** team template */
+*, *:before, *:after {
+  box-sizing:border-box;
+}
+
+.column-card {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+  padding: 0 16px;
+}
+
+.card-container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.card-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card-button:hover {
+  background-color: rgb(255, 0, 0);
+}
+.team-content{
+  margin: 5em;
+}
+/**********/
+/** gallery **/
+.row {
+  color: #000;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 100%; /* IE10 */
+  flex: 33%;
+  max-width: 100%;
+  padding: 0 3px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/*************/
 /** HEADER **/
 #header-nav {
   background-color: #050505;
@@ -327,7 +431,8 @@ h3{
     margin: 5px 5px 5px 0;
   }
   .cont{
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 1.2em;
     float:none;
   }
 
@@ -394,9 +499,23 @@ h3{
     width: 360px;
     margin: 0 auto 15px;
   }
-  .cont{
-    
-    float:none;
+  .event-desc{
+    margin : 1.1em 1.8em 0 0;
+    float: right;
+    width: 100%;
   }
-  
+
+  .cont{
+    float:none;
+    width: 100%;
+
+  }
+  .poster{
+    padding: 0 auto;
+    width: 80%;
+  }
+  .column-card {
+    width: 100%;
+    display: block;
+  }
 }

@@ -363,6 +363,9 @@ h2{
 /* END HOME PAGE */
 
 /* FOOTER */
+section{
+  color: white;
+}
 .panel-footer {
   margin-top: 30px;
   padding-top: 35px;

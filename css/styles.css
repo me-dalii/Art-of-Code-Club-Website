@@ -222,11 +222,14 @@ h2{
   padding: 0 8px;
 }
 
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.card:hover{
+  border: solid 0.2px black;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+}
 .card-container {
   padding: 0 16px;
 }
@@ -254,7 +257,8 @@ h2{
 }
 
 .card-button:hover {
-  background-color: rgb(203, 206, 66);
+  color: #000;
+  background-color: rgb(235, 238, 38);
 }
 .team-content{
   margin: 5em;
@@ -378,23 +382,14 @@ section{
 .panel-footer div.row {
   margin-bottom: 35px;
 }
-#hours, #address {
-  line-height: 2;
+.address {
+  font-size: 1.2em;
 }
-#hours > span, #address > span {
+.address > span {
   font-size: 1.3em;
 }
-#address p {
-  color: #557c3e;
-  font-size: .8em;
-  line-height: 1.8;
-}
-#testimonials {
-  font-style: italic;
-}
-#testimonials p:nth-child(2) {
-  margin-top: 25px;
-}
+
+
 /* END FOOTER */
 
   

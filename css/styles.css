@@ -258,7 +258,7 @@ h2{
 
 .card-button:hover {
   color: #000;
-  background-color: rgb(235, 238, 38);
+  background-color: rgba(219, 216, 28, 0.938);
 }
 .team-content{
   margin: 5em;

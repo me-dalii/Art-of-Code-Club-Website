@@ -110,8 +110,8 @@ a.socialIcon:hover, .socialHoverClass {
   transition: all 0.8s;
 }
 
-a {
-  background-color: #fff;
+.iconsbg {
+  background-color: rgb(255, 255, 255);
 }
 
 #local-icon{
@@ -516,7 +516,7 @@ section{
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { 
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }

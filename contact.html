@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
   </head>
 <body>
   <header>
@@ -25,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-      </div><!-- .container -->
+      </div>
       <div id="collapsable-nav" class="collapse navbar-collapse">
         <ul id="nav-list" class="nav navbar-nav navbar-right">
          <li>
@@ -48,15 +52,15 @@
            <a href="contact.html">
              <br class="hidden-xs">Contact</a>
          </li>
-       </ul><!-- #nav-list -->
-     </div><!-- .collapse .navbar-collapse -->
-    </nav><!-- #header-nav -->
+       </ul>
+     </div>
+    </nav>
   </header>
 
   <div class="info" style="margin: 50px 35% 20px 35%">
     <h1 id="contact-container">Contact us</h1>
   </div>
-        <form action="">
+        <form  action="javascript:alert('Operation Failed Successfully')">
         <table>
           <tr>
             <td><label>Name</label></td>
@@ -75,7 +79,7 @@
               <td><textarea name="message" placeholder="Your message here"></textarea></td>
             </tr>
         </table>
-          <input type="submit" name="Envoyer">
+          <input type="submit" >
           </form>
 
           <footer class="panel-footer">
@@ -96,18 +100,17 @@
                   </a>
                   <hr class="visible-xs">
                 </section>
-              <section class="col-md-4 col-sm-12">
-                <a href="#"><div id="mail-icon"></div></a>
-                <p id="alt-aoc"> artofcodeclub@gmail.com</p>
-                <a href="https://www.facebook.com/artofcodeclub"><div id="facebook-icon"></div></a>
-                <a href="https://www.instagram.com/artofcodeclub/"><div id="instagram-icon"></div></a>
-                <p id="alt-aoc"> @artofcodeclub</p>
+              <section class="col-md-4 col-sm-12 col-xs-12" style="text-align: center">
+                  <ul class="social-network social-circle">
+                    <li><a href="mailto:artofcodeclub@gmail.com" class="icoGoogle" title="Gmail"><i class="fa fa-google"></i></a></li>
+                      <li><a href="https://www.facebook.com/artofcodeclub" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="https://www.youtube.com/channel/UCMol65GSHg0R62a_ld_Ld1g" class="icoYoutube" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+                      <li><a href="https://www.instagram.com/artofcodeclub" class="icoInstagram" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  </ul>
               </section>
             </div>
+              <section class="class=col-md-12 col-sm-12 col-xs-12" style="text-align: center"> © 2021 Copyright: AOC Team</section>
         </footer>
 
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
 </body>
 </html>

@@ -13,6 +13,7 @@ body {
 }
 
 #info-p{
+  font-family: Helvetica, sans-serif	;
   padding-top: 1.5em;
   padding-left: 1.8em;
   padding-right: 1.8em;
@@ -115,11 +116,9 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 #local-icon{
-  background: url('../media/map-marker-2-24.png') no-repeat;
   width: 24px;
   height: 24px;
-  margin: 5px 15px 5px 0;
-  float: left;
+  margin-bottom: 5px;
 }
 #alt-aoc{
   margin: 5px 5px 5px 0;
@@ -194,7 +193,6 @@ input[type=submit] {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  
   max-width: 100%;
   height: auto;
   border-radius: 5px;
@@ -202,9 +200,15 @@ input[type=submit] {
   transition: 0.3s;
 }
 
+
 .Img:hover{
   opacity: 0.7;
 }
+
+.pictures{
+  width:100%;
+}
+
 h3{
   margin: 0;
   margin-bottom: 5px;
@@ -317,7 +321,7 @@ h2{
 
 .card-button:hover {
   color: #000;
-  background-color: rgba(219, 216, 28, 0.938);
+  background-color: rgba(255, 251, 5, 0.39);
 }
 .team-content{
   margin: 5em;

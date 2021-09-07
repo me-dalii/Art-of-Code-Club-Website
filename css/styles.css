@@ -1,8 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@300&display=swap');
+
 body {
   font-size: 16px;
   color: #fff;
   background-color: rgb(230 230 230);
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .info{
@@ -13,7 +16,6 @@ body {
 }
 
 #info-p{
-  font-family: Helvetica, sans-serif	;
   padding-top: 1.5em;
   padding-left: 1.8em;
   padding-right: 1.8em;
@@ -23,6 +25,7 @@ body {
 }
 
 #contact-container{
+  background: rgba(255, 255, 255, 0.192);
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 1.2em;

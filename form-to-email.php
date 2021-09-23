@@ -3,7 +3,7 @@ if (isset($_POST['submit']))
 {
 echo "error; you need to submit the form !" ;
 }
-$name = $_POST['nom'];
+$name = $_POST['Nom'];
 $visitor_email= $_POST['Email'];
 $message = $_POST['message'];
 

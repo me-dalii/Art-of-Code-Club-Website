@@ -10,6 +10,17 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+
+.new-logo-event
+{
+top: 25%;
+ max-width: 7%;
+ position: absolute;
+ margin-left: 83%;
+  
+}
+
+
 .info{
   margin: 50px 50px 50px 50px;
   background-color: rgb(0, 0, 0);

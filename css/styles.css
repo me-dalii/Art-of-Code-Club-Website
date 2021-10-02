@@ -503,7 +503,17 @@ section{
   }
 
 }
-
+@media (min-width : 300px) and (max-width :420px) {
+  .event-desc
+  {
+    margin: 110%;
+  }
+  #neder {
+    width: 100%;
+  height: 100%;
+  }
+  
+}
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
  

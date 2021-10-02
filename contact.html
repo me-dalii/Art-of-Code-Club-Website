@@ -60,14 +60,14 @@
     </nav>
   </header>
 
-  <form style="margin-top: 30px;" action="javascript:alert('Operation Failed Successfully')">
+  <form  style="margin-top: 30px;" name="myform" method="post" action ="form-to-email.php" >
     <div class="info" style="margin: 50px 35% 20px 35%">
       <h1 id="contact-container">Contact us</h1>
     </div>
-    <table>
+    <table >
       <tr>
         <td><label>Name</label></td>
-        <td><input type="text" name="Nom" placeholder="Your name"></td>
+        <td><input type="text" id="table-limit" name="Nom" placeholder="Your name"></td>
       </tr>
       <tr>
         <td><label>Email</label></td>

@@ -1,12 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@300&display=swap');
 
+
+
 body {
   font-size: 16px;
   color: #fff;
   background-color: rgb(230 230 230);
   font-family: 'Josefin Sans', sans-serif;
 }
+
+
+.new-logo-event
+{
+top: 28%;
+ max-width: 10%;
+ position: absolute;
+ margin-left: 80%;
+ mix-blend-mode: multiply;
+}
+
 
 .info{
   margin: 50px 50px 50px 50px;
@@ -310,6 +323,7 @@ h2{
   color: grey;
 }
 
+
 .card-button {
   border: none;
   outline: 0;
@@ -511,6 +525,15 @@ section{
   #neder {
     width: 100%;
   height: 100%;
+  }
+  
+  .new-logo-event
+  {
+    top: 25%;
+    max-width: 15%;
+    position: absolute;
+    margin-left: 50%;
+    mix-blend-mode: multiply;
   }
   
 }

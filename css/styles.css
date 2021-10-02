@@ -14,7 +14,7 @@ body {
 .new-logo-event
 {
 top: 28%;
- max-width: 10%;
+ max-width: 9%;
  position: absolute;
  margin-left: 80%;
  mix-blend-mode: multiply;
@@ -42,6 +42,7 @@ top: 28%;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 1.2em;
+  border-radius: 60px 60px 60px 60px;
 }
 
 .container{

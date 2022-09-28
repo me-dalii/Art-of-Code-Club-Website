@@ -657,3 +657,9 @@ section{
   height: 50px;
   
 }
+
+.flexy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

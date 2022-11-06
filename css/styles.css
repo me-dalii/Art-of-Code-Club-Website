@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@300&display=swap');
 
-
+hr.new {
+  border: 1px solid black;
+}
 
 body {
   font-size: 16px;

@@ -5,6 +5,29 @@ hr.new {
   border: 1px solid black;
 }
 
+#conteneur_slider{
+  position:absolute;
+  top:600px;
+  width:600px;
+  height:400px;
+  margin: 0px 735px;
+  z-index:2;
+  font-size:200%
+  }
+
+  .button-sponsor {
+    position: absolute;
+    top:50%;
+    background-color:#000;
+    color: #fff;
+    border:none; 
+    border-radius:15px 15px 15px 15px; 
+    padding:15px;
+    min-height:30px; 
+    width: 70%;
+    cursor: pointer;
+  }
+
 body {
   font-size: 16px;
   color: #fff;

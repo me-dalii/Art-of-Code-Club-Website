@@ -4,33 +4,26 @@
 hr.new {
   border: 1px solid black;
 }
-
 #conteneur_slider{
   position:absolute;
-  top:600px;
-  width:600px;
-  height:400px;
-  margin: 0px 735px;
-  z-index:2;
-  font-size:200%
+  left: 70%;
+  top:110%;
   }
 
   .button-sponsor {
-    position: absolute;
-    top:50%;
+    position :absolute;
     background-color:#000;
     color: #fff;
-    border:none; 
+    font-size: small;
     border-radius:15px 15px 15px 15px; 
     padding:15px;
     min-height:30px; 
-    width: 70%;
+    width: 400px;
     cursor: pointer;
   }
   .button-sponsor:active {
     transform: translateY(7px);
    }
-
 
 body {
   font-size: 16px;

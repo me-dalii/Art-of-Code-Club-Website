@@ -4,14 +4,12 @@
 hr.new {
   border: 1px solid black;
 }
-#conteneur_slider{
-  position:absolute;
-  left: 70%;
-  top:110%;
-  }
-
-  .button-sponsor {
+.button-sponsor {
     position :absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     background-color:#000;
     color: #fff;
     font-size: medium;
@@ -21,9 +19,14 @@ hr.new {
     width: 400px;
     cursor: pointer;
   }
-  .button-sponsor:active {
-    transform: translateY(7px);
-   }
+  @media screen and (max-width:500px){
+    .button-sponsor{
+      top: 38%;
+      font-size: small;
+      width: 70%;
+    }
+  }
+
 
 body {
   font-size: 16px;

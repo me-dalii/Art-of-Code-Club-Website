@@ -21,9 +21,9 @@ hr.new {
   }
   @media screen and (max-width:500px){
     .button-sponsor{
-      top: 40%;
+      top: 50%;
       font-size: small;
-      width: 200px;
+      width: 70%;
     }
   }
 

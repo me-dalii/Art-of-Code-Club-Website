@@ -233,6 +233,17 @@ input[type=submit] {
   border-radius: 25px;
 }
 
+.btn96{
+  background-color: #dde000;
+  border: none;
+  color: rgb(29, 29, 29);
+  padding: 7px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
 .Img {
   display: block;
   margin-left: auto;

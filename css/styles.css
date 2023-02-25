@@ -328,6 +328,7 @@ h4{
 h2{
   font-size: 36px;
   font-weight: 700;
+  margin-bottom: 0%;
 }
 /**** team template */
 *, *:before, *:after {
@@ -336,7 +337,7 @@ h2{
 
 .column-card {
   float: left;
-  width: 25%;
+  width: 20%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -698,4 +699,19 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.column-card > .card > .card-container > h2{
+  font-size: 130%;
+
+}
+.column-card > .card > .card-container > .title{
+  font-size: 90%;
+  word-wrap: break-word;     
+
+}
+
+.column-card > .card > .card-container > p{
+  word-wrap: break-word;     
+
 }
